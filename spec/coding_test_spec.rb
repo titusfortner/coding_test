@@ -1,11 +1,11 @@
 require 'spec_helper'
 
 describe CodingTest do
-  it 'has a version number' do
-    expect(CodingTest::VERSION).not_to be nil
+  it 'shows the day number with the smallest temperature spread' do
+    expect(day_min_temp_spread('data.dat')).to be == '14'
   end
 
-  it 'does something useful' do
-    expect(false).to eq(true)
+  it 'shows the name of the team with the smallest difference' do
+    expect(team_min_point_spread('football.dat')).to be == 'Aston_Villa'
   end
 end
