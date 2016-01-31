@@ -1,0 +1,3 @@
+module CodingTest
+  # Your code goes here...
+end
