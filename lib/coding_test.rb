@@ -1,3 +1,6 @@
+require_relative 'page_object'
+require 'watir-webdriver'
+
 module CodingTest
 
     # Feel free to use, ignore or modify this code as you see fit
@@ -17,4 +20,7 @@ module CodingTest
     fail "Implement this method"
   end
 
+  def create_browser
+    fail "Implement this method"
+  end
 end
