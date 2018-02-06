@@ -66,7 +66,7 @@ module CodingTest
     teams.sort! { |a, b|  a.spread <=> b.spread }
     
     # return first value
-    puts "#{teams.first.name} has lowest point spread: #{teams.first.spread}"
+    puts "Team #{teams.first.name} has lowest point spread: #{teams.first.spread}"
 
     return teams.first.name
   end
