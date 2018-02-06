@@ -19,13 +19,11 @@ module CodingTest
 
       # check for invalid weather record
       if ! weather.parsed?
-        puts "invalid weather #{weather.inspect}"
         next
       end
 
       # check for invalid day
       if weather.day < 1 or weather.day > 31
-        puts "invalid day #{weather.day}"
         next
       end
 
@@ -54,7 +52,6 @@ module CodingTest
 
       # check for invalid team record
       if ! team.parsed?
-        puts "invalid team #{team.inspect}"
         next
       end
 
