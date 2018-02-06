@@ -10,7 +10,7 @@ class TeamRecord
     @record = line.strip.split(/\s+/)
     
     if ! parsed?
-      puts "unable to parse record: #{line}"
+      # puts "unable to parse record: #{line}"
       return
     end
 
