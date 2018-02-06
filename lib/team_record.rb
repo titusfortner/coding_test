@@ -6,7 +6,6 @@ class TeamRecord
     self.parse(record)
   end
 
-
   def parse(line)
     @record = line.strip.split(/\s+/)
     
@@ -23,7 +22,6 @@ class TeamRecord
     @goals_for = @record[6].to_i
     @goals_against = @record[8].to_i
     @points = @record[9].to_i
-
   end
 
   def spread()

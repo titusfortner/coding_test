@@ -21,7 +21,6 @@ class WeatherRecord
     @avg_temp= @record[3].to_i
     
     #TODO: implement parsing of the rest of this with variable field count based on string index
-
   end
 
   def parsed?()
